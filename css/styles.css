@@ -73,6 +73,10 @@ body {
     color: var(--akcent-color);
 }
 
+.header-list .header-link.current {
+    color: var(--akcent-color);
+}
+
 /* Main-Студия */
 
 .decision {
@@ -94,16 +98,15 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: var(--btn-color);
+    color: #FFFFFF;
     background-color: #2196F3;
 }
 
 .decision-btn:hover,
 .decision-btn:focus {
-    color: #188CE8;
+    background-color: #188CE8;
+    color: #FFFFFF;
 }
-
-
 
 .advantege,
 .about {
@@ -179,7 +182,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-
 .footer-address {
     color: var(--second-color);
 }
@@ -201,5 +203,41 @@ body {
     color: var(--second-color);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--akcent-color);
+}
+
 /* Main-Портфолио */
+
+.holder-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+}
+
+.holder-btn:hover,
+.holder-btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+.pictures-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.pictures-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
 
