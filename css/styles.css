@@ -22,6 +22,10 @@ body {
     text-decoration: none;
 }
 
+.pointer {
+    cursor: pointer;
+  }
+
 /* Header */
 
 .header-logo,
@@ -73,7 +77,7 @@ body {
     color: var(--akcent-color);
 }
 
-.header-list .header-link.current {
+.current {
     color: var(--akcent-color);
 }
 
