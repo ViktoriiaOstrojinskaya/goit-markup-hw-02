@@ -1,9 +1,12 @@
 body {
     font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--main-bkg);
 }
 
 :root {
+    --main-bkg: #FFFFFF;
     --main-color: #212121;
     --second-color: #FFFFFF; 
     --text-color: #757575;
@@ -14,6 +17,7 @@ body {
     --title-color: #212121;
 }
 
+
 .list {
     list-style: none;
 }
@@ -21,10 +25,6 @@ body {
 .link {
     text-decoration: none;
 }
-
-.pointer {
-    cursor: pointer;
-  }
 
 /* Header */
 
@@ -80,7 +80,6 @@ body {
 .current {
     color: var(--akcent-color);
 }
-
 /* Main-Студия */
 
 .decision {
@@ -104,17 +103,12 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
 
 .decision-btn:hover,
 .decision-btn:focus {
     background-color: #188CE8;
-    color: #FFFFFF;
-}
-
-.advantege,
-.about {
-    background-color: #E5E5E5;;
 }
 
 .advantege-title {
@@ -132,17 +126,13 @@ body {
 
 .advantege-subtitle {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
 }
 
 .advantege-text {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
@@ -151,7 +141,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .team {
@@ -162,14 +151,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
     color: var(--main-color);
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
     color: var(--text-color);    
 }
 
@@ -212,15 +199,22 @@ body {
     color: var(--akcent-color);
 }
 
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--akcent-color);
+}
+
 /* Main-Портфолио */
 
 .holder-btn {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
+    cursor: pointer;
 }
 
 .holder-btn:hover,
@@ -241,7 +235,6 @@ body {
 .pictures-text {
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
