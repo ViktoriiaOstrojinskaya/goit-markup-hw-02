@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--main-bkg);
+    color: var(--text-color);
 }
 
 :root {
@@ -15,6 +16,7 @@ body {
     --btn-color: #FFFFFF;
     --main-title-color: #FFFFFF;
     --title-color: #212121;
+    --btn-bkg: #F5F4FA;
 }
 
 
@@ -101,8 +103,8 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--second-color);
+    background-color: var(--akcent-color);
     cursor: pointer;
 }
 
@@ -125,6 +127,7 @@ body {
   }
 
 .advantege-subtitle {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -212,15 +215,15 @@ body {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--main-color);
+    background: var(--btn-bkg);
     cursor: pointer;
 }
 
 .holder-btn:hover,
 .holder-btn:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--akcent-color);
+    color: var(--second-color);
 }
 
 
